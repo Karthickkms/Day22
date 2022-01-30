@@ -1,0 +1,38 @@
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(17, 14, 14, 0.856);
+}
+
+.container{
+   
+     background-color:rgba(172, 156, 156, 0.795);
+     width:15rem;
+     font-family:sans-serif;
+    box-shadow:rgba(107, 92, 92, 0.35) 0px 5px 15px;
+    border-radius:0.5rem;
+    overflow: hidden;
+    margin:20px;  
+}
+.flag{
+    width:100%;
+}
+.info{
+    padding: 1rem;
+}
+.info > h2 {
+    background-color: black;
+    text-align:center;
+
+}
+.info-span {
+    font-weight: bold;
+}
+button{
+    background-color: rgba(128, 128, 128, 0.726);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
